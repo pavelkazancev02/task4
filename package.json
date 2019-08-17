@@ -7,8 +7,9 @@
     "test": "test"
   },
   "scripts": {
+    "start": "npm run test",
     "dev": "lite-server",
-    "test": "echo \"Error: no test specified\" && sexit 1"
+    "test": "lite-server"
   },
   "author": "Pavel Kazantsev",
   "license": "ISC",
