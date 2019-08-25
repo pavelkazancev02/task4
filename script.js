@@ -4,4 +4,13 @@ module.exports = async function(callback) {
   const contract = await MyContract.deployed()
   const value = await contract.get()
   console.log("Value:", value)
+    port: process.env.PORT,
+    files: ['.src/**/*.{html,htm,css,js}'],
+    server:{
+        baseDir: ["./src", "./build/contracts"]
+    }    port: process.env.PORT,
+    files: ['.src/**/*.{html,htm,css,js}'],
+    server:{
+        baseDir: ["./src", "./build/contracts"]
+    }
 }
