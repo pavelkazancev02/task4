@@ -1,10 +1,13 @@
 {
   "name": "task4",
-  "version": "10.16.3",
+  "version": "1.0.0",
   "description": "Simple Dapp",
   "main": "truffle-config.js",
   "directories": {
     "test": "test"
+  },
+  "engines": {
+    "node": "6.11.1"
   },
   "scripts": {
     "heroku-prebuild": "npm install --dev",
