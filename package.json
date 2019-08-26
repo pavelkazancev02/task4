@@ -1,0 +1,26 @@
+{
+  "name": "task4",
+  "version": "1.0.0",
+  "description": "Simple Dapp",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "start": "npm run dev",
+    "dev": "lite-server",
+    "test": "lite-server"
+  },
+  "author": "Pavel Kazantsev",
+  "license": "ISC",
+  "dependencies": {
+    "truffle": "^4.0.6",
+    "truffle-hdwallet-provider": "0.0.3",
+    "lite-server": "^2.3.0",
+    "bootstrap": "^4.0.0-alpha.6",
+    "font-awesome": "^4.7.0"
+  },
+  "devDependencies": {
+    "lite-server": "^2.3.0"
+  }
+}
